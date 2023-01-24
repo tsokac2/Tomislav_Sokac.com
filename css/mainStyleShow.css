@@ -1,0 +1,250 @@
+ html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+margin: 0; padding: 0; border: 0; font-size: 100%;
+font: inherit;vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {display: block;}
+body {line-height: 1;}
+ol, ul {list-style: none;}
+blockquote, q {quotes: none;}
+blockquote:before, blockquote:after,
+q:before, q:after {content: ''; content: none;}
+table {border-collapse: collapse; border-spacing: 0;}
+/*-- -------------------------------------------------- --*/
+
+/*-- Main Header --*/
+.mainHeader {background-color: black;}
+.mainHeader h1 {
+    color: white;
+    font-size: 2.5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+a:hover { text-decoration: none;}
+.check {
+    background-color: black;
+    color: white;
+    font-size: 1;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.check:hover {
+    background-color: rgb(36, 36, 36);
+    transition: 0.4s ease-in-out;
+}
+
+/*-- Details - Right --*/
+.name h2 {
+    font-size: 2rem;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.experience ul li {
+    color: black;
+    margin-bottom: 1.5vh;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 0.9rem;
+}
+
+.experience ul li a{
+    color: rgb(23, 20, 161);
+}
+.experience ul li a:hover{
+    transition: ease-in-out;
+    transition-delay: 0.3s;
+    color: rgb(59, 59, 59);
+    font-weight: bold;
+}
+.experience ul li span {
+    font-style: italic;
+}
+
+.experience h2 {
+    font-size: 1.3rem;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.details ul li, .training h2 {
+    font-weight: bold;
+    color: black;
+    margin-bottom: 1vh;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 0.9rem;
+}
+.details ul li span {
+    font-weight: normal;
+    font-family: 'Encode Sans Expanded', sans-serif;
+    line-height: 22px;
+    font-size: 0.8rem;
+}
+.training ul {
+    list-style: circle;
+}
+.training ul li, .training p {
+    font-weight: normal;
+    font-family: 'Encode Sans Expanded', sans-serif;
+    line-height: 22px;
+    font-size: 0.8rem;
+}
+.training ul li span {
+    font-style: italic;
+}
+
+.contact h2 {
+    font-weight: bold;
+    color: black;
+    margin-bottom: 2vh;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 1.5rem;
+}
+.contact ul li, .contact p {
+    font-weight: normal;
+    margin-top: 1vh;
+    font-family: 'Encode Sans Expanded', sans-serif;
+    line-height: 22px;
+    font-size: 1.2rem;
+}
+.contact ul li span {
+    color: rgb(71, 71, 71);
+}
+
+/*-- Voice and Video Sample --*/
+.voice h2 {
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* .videocontent {
+	width:80%;
+	max-width: 640px;
+	margin: 0 auto;
+} */
+
+.first_name,
+.last_name,
+.contact_email,
+.cMessage {
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #000000;
+    transition: 0.8s ease;
+}
+
+/*-- Validation Classe --*/
+.first_name.ng-invalid.ng-touched,
+.last_name.ng-invalid.ng-touched,
+.contact_email.ng-invalid.ng-touched,
+.cMessage.ng-invalid.ng-touched
+    {border: 0.1vh solid rgba(255, 0, 0, 0.5);}
+
+.errorForm {
+    width: 100%;
+    padding: 2vh 0 1vh 1%;
+    font-style: italic;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgba(255, 0, 0, 0.418);
+}
+.succesForm {
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgba(0, 255, 0, 0.61);
+}
+.send {
+    padding: 1vh 8% 1vh 8%;
+    background-color: #000000;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+}
+/* .send:hover {
+    transition: 0.4s ease-in-out;
+    background-color: #3b3b3b;
+} */
+.send[disabled="disabled"] {
+    opacity: 0.4;
+    cursor: not-allowed !important; 
+}
+
+
+/*-- ====== FOOTER ====== --*/
+.footerFolow {background-color: #000000;}
+
+.footerFolow h1 {
+    color: rgb(255, 255, 255);
+    font-size: 1.2rem;
+    font-family: 'Open Sans', sans-serif;
+}
+.footerFolow h2 {
+    color: rgb(255, 255, 255);
+    font-size: 0.8rem;
+    font-family: 'Open Sans', sans-serif;
+}
+.footerFolow ul li a i {
+    font-size: 1.5rem;
+    color: white;
+}
+
+
+/* Large devices (desktops, 1200px and down) */
+@media (max-width: 1200px) {
+.toleft {margin-right: 40%;}
+.interContent ul li {font-size: 2rem;}
+.interContent a h2 {font-size: 2.5rem;}
+}
+
+/* Large devices (desktops, 992px and down) */
+@media (max-width: 992px) {
+.toleft {margin-right: 35%;}
+}
+
+/* Small devices (Phone, Tablet, 768px and down) */
+@media (max-width: 767px) {
+
+.imTomislav h1 {font-size: 3rem;}
+.imTomislav p { font-size: 1rem; line-height: 22px;}
+.socialMenuLink li a i {font-size: 1.8rem;}
+.contactDetails ul li {font-size: 0.8rem;}
+.experience ul li {
+    font-size: 0.7rem;
+}
+
+/*-- Education --*/
+.education { border:none; background-color:#5e8a8bb7;}
+.educationContent h2 {font-size: 1.2rem;}
+
+/*-- WORKS --*/
+.worksThumbs a h2, .thumbsWrapApp h2{
+    font-size: 1rem;
+}
+
+/*-- INTERESTS --*/
+.interContent ul li {font-size: 1rem; margin-bottom: 2vh;}
+.showreal {background-color: rgba(0, 0, 0, 0.637); border-radius: 8px;}
+.interContent a h2 {font-size: 1rem; margin-bottom: 3vh;}
+.interHeader h2 {font-size: 1.3rem; letter-spacing: 3px;}
+.contactIntro p {font-size: 0.8rem;}
+
+/*-- FOOTER --*/
+.footerSmCor {font-size: 0.8rem;}
+}
