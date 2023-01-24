@@ -1,6 +1,6 @@
 # **[Tomislav Sokac](http://www.tomislavsokac.com/home)**
 
-![Website Main Mockup]()
+![Website Main Mockup](https://github.com/tsokac2/Tomislav_Sokac.com/blob/main/public/images/m_wireframe.jpg)
 
 ## Contents
 * **[Design process](#Design-process)**
