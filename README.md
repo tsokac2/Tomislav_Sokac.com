@@ -1,4 +1,4 @@
-# **[Tomislav Sokac](http://www.tomislavsokac.com/home)**
+# **[tomislavsokac.com](http://www.tomislavsokac.com/home)**
 
 ![Website Main Mockup](https://github.com/tsokac2/Tomislav_Sokac.com/blob/main/public/images/m_wireframe.jpg)
 
